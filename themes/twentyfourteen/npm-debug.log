@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.26/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-liveraload',
+1 verbose cli   '--save-dev' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json wp-gulp-automation@0.0.0 No repository field.
+5 warn package.json wp-gulp-automation@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'gulp-liveraload', null ]
+8 verbose cache add name=undefined spec="gulp-liveraload" args=["gulp-liveraload",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'gulp-liveraload',
+9 verbose parsed url   path: 'gulp-liveraload',
+9 verbose parsed url   href: 'gulp-liveraload' }
+10 silly lockFile 4b4c1534-gulp-liveraload gulp-liveraload
+11 verbose lock gulp-liveraload /Users/phoydar/.npm/4b4c1534-gulp-liveraload.lock
+12 silly lockFile 4b4c1534-gulp-liveraload gulp-liveraload
+13 silly lockFile 4b4c1534-gulp-liveraload gulp-liveraload
+14 verbose addNamed [ 'gulp-liveraload', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile bc4a53b6-gulp-liveraload gulp-liveraload@
+17 verbose lock gulp-liveraload@ /Users/phoydar/.npm/bc4a53b6-gulp-liveraload.lock
+18 silly addNameRange { name: 'gulp-liveraload', range: '*', hasData: false }
+19 verbose url raw gulp-liveraload
+20 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-liveraload' ]
+21 verbose url resolved https://registry.npmjs.org/gulp-liveraload
+22 info trying registry request attempt 1 at 17:31:10
+23 http GET https://registry.npmjs.org/gulp-liveraload
+24 http 404 https://registry.npmjs.org/gulp-liveraload
+25 silly registry.get cb [ 404,
+25 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'cache-control': 'max-age=0',
+25 silly registry.get     'content-length': '51',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     date: 'Sun, 31 May 2015 21:31:10 GMT',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     age: '0',
+25 silly registry.get     connection: 'keep-alive',
+25 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+25 silly registry.get     'x-cache': 'MISS',
+25 silly registry.get     'x-cache-hits': '0',
+25 silly registry.get     'x-timer': 'S1433107870.202992,VS0,VE58' } ]
+26 silly lockFile bc4a53b6-gulp-liveraload gulp-liveraload@
+27 silly lockFile bc4a53b6-gulp-liveraload gulp-liveraload@
+28 error 404 'gulp-liveraload' is not in the npm registry.
+28 error 404 You should bug the author to publish it
+28 error 404 It was specified as a dependency of 'wp-gulp-automation'
+28 error 404
+28 error 404 Note that you can also install from a
+28 error 404 tarball, folder, or http url, or git url.
+29 error System Darwin 14.0.0
+30 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "install" "gulp-liveraload" "--save-dev"
+31 error cwd /Users/phoydar/Development/Sugarbuzz/Sandbox/wp_gulp/wp-content/themes/twentyfourteen
+32 error node -v v0.10.26
+33 error npm -v 1.4.3
+34 error code E404
+35 verbose exit [ 1, true ]
